@@ -36,14 +36,9 @@ func GetHttp(url string) (result string, err error){
 			return
 		}
 		
-		
 		result += string(buf[:n])
-		
 	}
-	
 	return
-	
-	
 }
 
 
@@ -104,7 +99,6 @@ func main(){
 	fmt.Scan(&start)
 	fmt.Println("End at...")
 	fmt.Scan(&end)
-	
 	
 	working(start,end)
 }
